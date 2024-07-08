@@ -8,6 +8,7 @@ A Java library for managing URL redirection in Android applications. This librar
 ## Installation
 Copy `URLRedirectionManager.java` into your project.
 ## How to use 
+# Array
 ```Context context = this; // or obtain the context from your activity or application
 
 URLRedirectionManager redirectionManager = new URLRedirectionManager.Builder(context)
@@ -24,5 +25,6 @@ URLRedirectionManager redirectionManager = new URLRedirectionManager.Builder(con
                 // Handle error
             }
         })
-        .build();```
+        .build();
+## Single
 
