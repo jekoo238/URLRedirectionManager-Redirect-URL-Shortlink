@@ -50,7 +50,7 @@ redirectionManager.addURL(new URLRedirectionManager.VideoURL("Video 1", "https:/
 
 redirectionManager.addURL(new URLRedirectionManager.VideoURL("Video 2", "https://example.com/video2"));
 ```
-Final:
+Finally have to call this when in batch mode:
 ```
 redirectionManager.attachList();
 ```
